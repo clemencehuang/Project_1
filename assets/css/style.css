@@ -1,11 +1,11 @@
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 /* Asterix wildcard selector to override default styles added by the browser */
-* {
-  padding: 0%;
-  margin: 0%;
+*{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -31,17 +31,12 @@ body {
 }
 
 .hamburger {
-/* ----------------------------------------------------------------------------
-  Toggler X disappears once clicked ??????  
-  Also checkbox disappears once you scroll further down 
-  -------------------------------------------------------------------------------
-*/
   position: absolute; 
   top: 0;
   left: 0;
   height: 40px;
   width: 40px;
-padding: 0.6rem;
+/* padding: 0.6rem; */
 
 /* FOR DISPLAYING EVERY ELEMENT IN THE CENTER : */
 
@@ -76,7 +71,12 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   transition: all 0.4s ease;
 }
 
+.hamburger > div::before {
+  left: 0;
+}
+
 .hamburger > div::after {
+  left: 0;
   top: 8px;
 }
 
@@ -108,6 +108,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   background: #f8f8f8;
   opacity: 100%;
   height: 100vh;
+  top: 40px;
 
 /* APPLYING TRANSITION TO THE MENU :  */
 
@@ -117,7 +118,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 50% , CREATING A SMOOTH EFFECT :  */
 
 .toggler:checked ~ .menu {
-  width: 73%;
+  width: 70%;
 }
 
 /* STYLING THE LIST :  */
@@ -163,20 +164,20 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* Griefwell Logo */
 
 header {
-  position: absolute;
+  display: grid;
+  position: fixed;
   top: 0;
   left: 0;
   justify-content: center;
-  text-align: right;
+  align-items: center;
   width: 100%;
   height: 40px;
   background-color: #f8f8f8;
-  padding: 10px 10px;
   cursor: pointer;
   font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
-  font-size: 10px;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -200,7 +201,7 @@ header {
 
 #home-h3-1 {
   padding-bottom: 30px;
-  font-size: 23px;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
@@ -208,8 +209,8 @@ header {
 }
 
 #home-article-1 {
-  padding: 60px 80px;
-  font-size: 15px;
+  padding: 60px 70px;
+  font-size: 1.1rem;
   justify-content: center;
   text-align: center;
 }
@@ -232,7 +233,7 @@ header {
 
 #home-h3-2 {
   padding-bottom: 30px;
-  font-size: 23px;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
@@ -240,8 +241,8 @@ header {
 }
 
 #home-article-2 {
-  padding: 60px 80px;
-  font-size: 15px;
+  padding: 60px 70px;
+  font-size: 1.1rem;
   justify-content: center;
   text-align: center;
 }
@@ -255,7 +256,7 @@ header {
 
 about-h3-1 {
   padding-bottom: 30px;
-  font-size: 23px;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
@@ -264,7 +265,7 @@ about-h3-1 {
 
 #about-article-1 {
   padding: 60px 80px;
-  font-size: 15px;
+  font-size: 1.1rem;
   justify-content: center;
   text-align: center;
 }
@@ -272,7 +273,7 @@ about-h3-1 {
 /* Footer */
 
 footer {
-  font-size: 18px;
+  font-size: 0.7rem;
   letter-spacing: 0.3px;
   width: 100%;
   text-align: center;
