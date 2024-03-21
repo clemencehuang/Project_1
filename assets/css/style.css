@@ -181,7 +181,7 @@ header {
   letter-spacing: 1px;
 }
 
-/* Home page - Section 1 */
+/* HOME page - Section 1 */
 
 /* Image 1 */
 
@@ -214,7 +214,7 @@ header {
   text-align: center;
 }
 
-/*  Home page - Section 2 */
+/*  HOME page - Section 2 */
 
 /* Image 2 */
 
@@ -246,6 +246,28 @@ header {
   text-align: center;
 }
 
+/* ABOUT page - Section 1 */
+
+.about-bgcolor-1 {
+  display: block;
+  background-color: #a9b1a8;
+}
+
+about-h3-1 {
+  padding-bottom: 30px;
+  font-size: 23px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#about-article-1 {
+  padding: 60px 80px;
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+}
 
 /* Footer */
 
