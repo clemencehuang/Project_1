@@ -110,13 +110,22 @@ header {
 }
 
 /* ABOUT page - Section 1 */
+/* REMOVE BIG GAP AT THE TOP OF FIRST IMAGE */
 
 .about-bgcolor-1 {
   display: block;
   background-color: #a9b1a8;
 }
 
-about-h3-1 {
+#about-pic-1 {
+  height: 380px;
+  width: 100%;
+  background: url("../images/page2-about/page2-about-section1/page2-about-section1-img1.png")
+    no-repeat center center/cover alt="Photo of Felicia McDonald, founder of Griefwell";
+}
+
+#about-h3-1 {
+  padding-top: 50px;
   padding-bottom: 30px;
   font-size: 1.6rem;
   letter-spacing: 1px;
@@ -131,6 +140,137 @@ about-h3-1 {
   justify-content: center;
   text-align: center;
 }
+
+/* SERVICES page - Section 1 */
+
+/* Image 1 */
+
+.services-bgcolor-1 {
+  display: block;
+  background-color: #eeeeee;
+}
+
+#services-pic-1 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/page3-services/page3-services-img1a.png")
+    no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#services-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#services-article-1 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Image 2 */
+
+.services-bgcolor-2 {
+  display: block;
+  background-color: #f3eee5;
+}
+
+#services-pic-2 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/page3-services/page3-services-img2a.png")
+    no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#services-h3-2 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#services-article-2 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Image 3 */
+
+.services-bgcolor-3 {
+  display: block;
+  background-color: #fcf4ec;
+}
+
+#services-pic-3 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/page3-services/page3-services-img2b.png")
+    no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#services-h3-3 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#services-article-3 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* CONTACT page - Section 1 */
+
+/* Image 1 */
+/* NEED TO FIX FOOTER TO STICK TO THE BOTTOM */
+
+.contact-bgcolor-1 {
+  display: block;
+  background-color: #f7eddb;
+}
+
+#page4-contact-img1 {
+  height: 400px;
+  width: 100%;
+  background: url("../images/page4-contact/page4-contact-img1.png")
+    no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#contact-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#contact-article-1 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
 
 /* Footer */
 
