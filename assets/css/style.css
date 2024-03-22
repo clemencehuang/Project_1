@@ -9,6 +9,8 @@
   box-sizing: border-box;
 }
 
+/* OVERALL STYLES */
+
 body {
   font-family: "Cormorant Garamond", serif;
   font-weight: 300;
@@ -19,7 +21,139 @@ body {
 /* width: 100vw; */
 }
 
-.toggler {
+
+/* Griefwell Logo */
+
+header {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content:flex-start;
+  align-items: center;
+  padding-left: 25px;
+  width: 100%;
+  height: 60px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* HOME page - Section 1 */
+
+/* Image 1 */
+
+.home-bgcolor-1 {
+  display: block;
+  background-color: #f8f8f8;
+}
+
+#home-pic-1 {
+  height: 350px;
+  width: 100%;
+  background: url("../images/page1-home/page1-home-section1/page1-home-section1-img1.png")
+    no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#home-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#home-article-1 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/*  HOME page - Section 2 */
+
+/* Image 2 */
+
+#home-pic-2 {
+  height: 380px;
+  width: 100%;
+  background: url("../images/page1-home/page1-home-section2/page1-home-section2-img1.png")
+    no-repeat center center/cover;
+}
+
+.home-bgcolor-2 {
+  display: block;
+  background-color: #e4e0ce;
+}
+
+#home-h3-2 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#home-article-2 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ABOUT page - Section 1 */
+
+.about-bgcolor-1 {
+  display: block;
+  background-color: #a9b1a8;
+}
+
+about-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#about-article-1 {
+  padding: 60px 80px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.7rem;
+  letter-spacing: 0.3px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #b9b5a4;
+  color: #e5ff00;
+  margin: 0px;
+  padding: 20px;
+}
+
+/* ------------------------------------------------------------------------*/
+
+/* Media query: mobile and tablet up to (1023px) */
+
+@media screen and (max-width: 1023px) {
+
+  .toggler {
   /* ALWAYS KEEPING THE TOGGLER OR THE CHECKBOX ON TOP OF EVERYTHING :  */
   z-index: 2;
   position: absolute;
@@ -163,145 +297,162 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   color: rgb(0, 0, 0);
 }
 
-/* Griefwell Logo */
-
-header {
-  display: grid;
-  position: fixed;
-  top: 0;
-  left: 0;
-  justify-content:flex-start;
-  align-items: center;
-  padding-left: 25px;
-  width: 100%;
-  height: 60px;
-  background-color: #f8f8f8;
-  cursor: pointer;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-/* HOME page - Section 1 */
-
-/* Image 1 */
-
-.home-bgcolor-1 {
-  display: block;
-  background-color: #f8f8f8;
-}
-
-#home-pic-1 {
-  height: 350px;
-  width: 100%;
-  background: url("../images/page1-home/page1-home-section1/page1-home-section1-img1.png")
-    no-repeat center center/cover;
-}
-
-#home-h3-1 {
-  padding-bottom: 30px;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-}
-
-#home-article-1 {
-  padding: 60px 70px;
-  font-size: 1.1rem;
-  justify-content: center;
-  text-align: center;
-}
-
-/*  HOME page - Section 2 */
-
-/* Image 2 */
-
-#home-pic-2 {
-  height: 380px;
-  width: 100%;
-  background: url("../images/page1-home/page1-home-section2/page1-home-section2-img1.png")
-    no-repeat center center/cover;
-}
-
-.home-bgcolor-2 {
-  display: block;
-  background-color: #e4e0ce;
-}
-
-#home-h3-2 {
-  padding-bottom: 30px;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-}
-
-#home-article-2 {
-  padding: 60px 70px;
-  font-size: 1.1rem;
-  justify-content: center;
-  text-align: center;
-}
-
-/* ABOUT page - Section 1 */
-
-.about-bgcolor-1 {
-  display: block;
-  background-color: #a9b1a8;
-}
-
-about-h3-1 {
-  padding-bottom: 30px;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
-}
-
-#about-article-1 {
-  padding: 60px 80px;
-  font-size: 1.1rem;
-  justify-content: center;
-  text-align: center;
-}
-
-/* Footer */
-
-footer {
-  font-size: 0.7rem;
-  letter-spacing: 0.3px;
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  background-color: #b9b5a4;
-  color: #e5ff00;
-  margin: 0px;
-  padding: 20px;
 }
 
 /* ------------------------------------------------------------------------*/
 
-/* Media query: mobile and larger (425px and up) */
-@media screen and (min-width: 425px) {
-}
+/* Large devices (laptops and desktops, 768px and up) */
 
-/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+  #home-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #home-pic-2 {
+  height: 650px;
+  object-position;
+  }
+
+  #home-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  #home-h3-2 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #home-article-2 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
+/* ------------------------------------------------------------------------*/
+
+/* Large devices (laptops and desktops, 1024px and up) */
+
+@media screen and (min-width: 1024px) {
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      width: 100%;
+      padding: 5px 3%;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 0.8rem;
+  }
+  
+  input {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  ul {
+    float: right;
+  }
+
+  li {
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+  }
+
+  li a {
+    color: #595654;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 5px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  li a:hover {
+    color: #a9b1a8;
+  }
+
+  #home-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #home-pic-2 {
+  height: 650px;
+  }
+
+  #home-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-1 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  #home-h3-2 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #home-article-2 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  footer {
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  margin: 0px;
+  padding: 20px;
 }
 
-/* Largest devices (laptops and desktops, 1200px and up) */
+}
 
-@media screen and (min-width: 1200px) {
+/* ------------------------------------------------------------------------*/
+
+/* Large devices (laptops and desktops, 1440px and up) */
+
+@media screen and (min-width: 1440px) {
+
+  #home-pic-1 {
+  height: 900px;
+  margin-top: 60px;
+  }
+
+  #home-pic-2 {
+  height: 950px;
+  }
+
+  #home-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-1 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  #home-h3-2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-2 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
 }
