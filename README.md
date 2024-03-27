@@ -115,51 +115,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-
-### Testing User Stories from User Experience (UX) Section
-
-1. As a user, I want to see upcoming events.
-
-    1. On the homepage users are greeted with the featured events happening during the month. Users can then click through to view all the events on offer during the month. 
-
-    2.
-        
-2. As a user, I want to be able to search for events based on certain search criteria.
-    1. This functionality would have been incorporated into the interactive map on the events page. The user would have been able to filter the upcoming events by a specific category e.g. child-friendly, outdoors etc.
-    2. Due to the extensive javascript usage, this was outside of the scope of this project currently. 
-
-3. As a user, I want to navigate through the site with ease.
-    1. The navigation bar is simple and allows the user to direct their search to the relevant areas of the site. Alongside, specific links of interest within bodies of text to further support the users navigation and sign up to events.
-    
-
-4. As a user, I want to know my information is secure to enable me to interact with others confidently.
-    1. Users can securely send there sign up to events requests via the system. Alongside, use the contact us logo at the bottom of each page.
-    2. At this stage of the build, the functionality for chat, sign-in and profile pages has not been implemented. 
-
-5. As a user, I want the ability to find businesses local to me which offer the product or service for my needs.
-    1. The business directory section of the website, although not installed yet, would have housed local businesses specialising in African and Caribbean products and services. Allowing the user to find new businesses to support and utilise a wider pool of businesses local to them. 
-    
-
-6. To create a safe and welcoming, dedicated space for the African and Caribbean community.
-    1. The site boosts a deep red colour promoting the feeling of warmth and a homely cozy feeling.
-    2. The African Tribal print, also features the same deep red colour, which helps tie the colour scheme together. 
-    3. The tribal print also supports the users to know who the site is targeted towards, without using words - which could cause misunderstanding.
-
-7. To provide activities to promote social interactions, cultural connections, relationship building, business awareness and a sense of community.
-    1. There are various activities available for users to engage with, alongside the option of them submitting their own event for others to join. This ensures all hobbies and interests are covered and those wanting to try new activities can find others. 
-    2. The chat functionality would have also further promted relationship building as users would have seen who else was attending the event, could have started conversations and can see what events those they have already met are attending. 
-
-8. Represent the African and Caribbean community
-    1. Representation comes from the images and tribal print used throughout the site.
-    2. Tee inclusion of Black Owned businesses local to the users location further prompts the sense of community.
-
-9. Enable users to interact with the site through their profile, hosting activities and promoting their business.
-    1. The profile element would have included the users interests, occupation, relationship/children status - attributes which would support the conversation and relationship building while on the site. 
-    2. This is important as there are situations where people without children want to interact with others without children, as one example. conversely, married users may want to meet other married couples to further extend their connections. 
-    3. Users can submit their own business or submit suggests of businesses they have come across which other users would benefit from having on the site. 
-
-
-
 ### Further Testing
 
 -   The Website was tested on Google Chrome, using DevTools across various breakpoints for mobile, tablet, laptop and desktop.
@@ -167,56 +122,40 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 ### Accessibility
-I wanted to ensure the site supported all visitors, I included the following in my code to ensure this:
+Making the website accessible was paramount in order to adhere to web standards but most importantly, to be able to reach as wide an audience as possible and to make the user experience across various devices as user friendly and legible as possible.
 
+* Semantic elements are used throughout the website
+* All images were converted into WEBP, a reduced file size to support the load time of images (https://image.online-convert.com/)
 * All images contained an alt tag
-* All images were converted into WEBP, a reduced file size to support the load time of images (https://convertio.co/webp-converter/)
-* The site is responsive to different screen sizes 
-* I used semantic elements throughout the design
+* The site is responsive to different screen sizes
+
 
 ### ***Known Bugs***
 
-* adding the bootstrap link caused the border image to disable. 
-    - Solution:  removed bootstrap link and used CSS to obtain result.
-* adding event listener to map caused map to disappear 
-![Image](assets/images/bug-screenshots/broken-map.png) 
-    - Solution: although I was able to fix this bug by editing the code, I did remove this functionality due to increased need for javascript to fully deliver what I wanted from the map. 
-* I was unable to see why the middle image on the index.html page was longer than the other images. From using the inspect tool - all attributes for the three containers were the same. 
-    - solution: bug not fixed due to time restraints. 
-* There is a slight delay in the text re-sizing as the page is re-sized and overflows from the container on the events page. 
-    - solution: bug not fixed due to time restraints
-* I was unable to change the nav bar to be on one line when the screen size was a laptop or bigger. It is currently stacked.
-    -solution: bug not fixed due to time restraints.    
+* xxxxx. 
+    - Solution:  xxxxx. 
 
 
 ## **Deployment**
 I deployed the page on GitHub pages via the following procedure: -
 
-1. From the project's [repository](https://github.com/AdelleKing/Tribe), go to the **Settings** tab.
+1. From the project's [repository](https://github.com/clemencehuang/project_01), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 ***
 ## **Credits**
-### **Honourable mentions**
+### **Thank you's**
 This project could not have happened without the support of the following people listed in no particular order:
 
 * [Komal Karir ](https://github.com/kkarir-waes) - My course tutor who was always on hand whenever I had a question and also provided great insight into the world of software development.
 
-* Luke Buchanan - My Code Institute mentor was able to see what I was trying to create and helped me simplify my code - a lot of 'Oh I see' moments - thank you.
-
-* The slack channels and other online support forums where I found a wealth of information, great inspiration and the courage to carry on through the difficult times of this project.
 
 ### **General reference:**
-* I really enjoyed using this website, the use of borders and colours really engaged me. I was unable to use any of the inspiration from this site in my own as the imagery was graphic design based.[Peanut](https://www.peanut-app.io/about-us)
-
 * I relied upon W3schools, youtube and stack overflow for general "how to's" throughout the project alongside course material from Code Institute. 
 
 ### **Content:**
-* Most of the content was written by myself.
-* Icons in the forms were taken from [Font Awesome](https://fontawesome.com) 
+* All content and photos were provided by Felicia McDonald.
 
-### **Media:**
-* Images used for activities were taken from [Pexels](https://www.pexels.com/)
-* The Hero image was created by myself using canva and personally taken photos. 
+### **THANK YOU!**
