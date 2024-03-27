@@ -18,7 +18,6 @@ body {
   color: #595654;
   background-color: #f8f8f8;
   height: 100vh;
-/* width: 100vw; */
 }
 
 
@@ -265,6 +264,10 @@ header {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+}
+
+.links {
+  color: #595654;
 }
 
 #contact-article-1 {
