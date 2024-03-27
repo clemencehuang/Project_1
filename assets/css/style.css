@@ -57,7 +57,7 @@ header {
   height: 350px;
   width: 100%;
   background: url("../images/page1-home/page1-home-section1/page1-home-section1-img1.png")
-    no-repeat center center/cover;
+              no-repeat center center/cover;
   margin-top: 60px;
 }
 
@@ -117,11 +117,14 @@ header {
   background-color: #a9b1a8;
 }
 
+/* ISSUE: IMAGE NOT SHOWING UP */
 #about-pic-1 {
-  height: 380px;
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   background: url("../images/page2-about/page2-about-section1/page2-about-section1-img1.png")
-    no-repeat center center/cover alt="Photo of Felicia McDonald, founder of Griefwell";
+    no-repeat center center/cover;
 }
 
 #about-h3-1 {
@@ -157,7 +160,7 @@ header {
     no-repeat center center/cover;
   margin-top: 60px;
 }
-
+/* ISSUE: WHITE GAP APPEARS UNDERNEATH "Grief Recovery Work" + "REIKI ENERGY HEALING" SECTION */
 #services-h3-1 {
   padding-bottom: 30px;
   font-size: 1.6rem;
@@ -240,7 +243,7 @@ header {
 /* CONTACT page - Section 1 */
 
 /* Image 1 */
-/* NEED TO FIX FOOTER TO STICK TO THE BOTTOM */
+/* ISSUE" NEED TO FIX FOOTER TO STICK TO THE BOTTOM */
 
 .contact-bgcolor-1 {
   display: block;
