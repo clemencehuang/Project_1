@@ -55,7 +55,7 @@ header {
 #home-pic-1 {
   height: 350px;
   width: 100%;
-  background: url("../images/page1-home/page1-home-section1/page1-home-section1-img1.png")
+  background: url("../images/page1-home/page1-home-section1/page1-home-section1-img1.webp")
               no-repeat center center/cover;
   margin-top: 60px;
 }
@@ -83,7 +83,7 @@ header {
 #home-pic-2 {
   height: 380px;
   width: 100%;
-  background: url("../images/page1-home/page1-home-section2/page1-home-section2-img1.png")
+  background: url("../images/page1-home/page1-home-section2/page1-home-section2-img1.webp")
     no-repeat center center/cover;
 }
 
@@ -113,7 +113,7 @@ header {
 
 .about-bgcolor-1 {
   display: block;
-  background-color: #a9b1a8;
+  background-color: #cfd3cf;
 }
 
 /* ISSUE: IMAGE NOT SHOWING UP */
@@ -122,7 +122,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  background: url("../images/page2-about/page2-about-section1/page2-about-section1-img1.png")
+  background: url("../images/page2-about/page2-about-section1/page2-about-section1-img1.webp")
     no-repeat center center/cover;
 }
 
@@ -155,7 +155,7 @@ header {
 #services-pic-1 {
   height: 500px;
   width: 100%;
-  background: url("../images/page3-services/page3-services-img1a.png")
+  background: url("../images/page3-services/page3-services-img1a.webp")
     no-repeat center center/cover;
   margin-top: 60px;
 }
@@ -186,7 +186,7 @@ header {
 #services-pic-2 {
   height: 500px;
   width: 100%;
-  background: url("../images/page3-services/page3-services-img2a.png")
+  background: url("../images/page3-services/page3-services-img2a.webp")
     no-repeat center center/cover;
   margin-top: 60px;
 }
@@ -217,7 +217,7 @@ header {
 #services-pic-3 {
   height: 500px;
   width: 100%;
-  background: url("../images/page3-services/page3-services-img2b.png")
+  background: url("../images/page3-services/page3-services-img2b.webp")
     no-repeat center center/cover;
   margin-top: 60px;
 }
@@ -252,7 +252,7 @@ header {
 #page4-contact-img1 {
   height: 400px;
   width: 100%;
-  background: url("../images/page4-contact/page4-contact-img1.png")
+  background: url("../images/page4-contact/page4-contact-img1.webp")
     no-repeat center center/cover;
   margin-top: 60px;
 }
@@ -287,8 +287,8 @@ footer {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background-color: #b9b5a4;
-  color: #e5ff00;
+  background-color: #6f6d63;
+  color: #ffffff;
   margin: 0px;
   padding: 20px;
 }
