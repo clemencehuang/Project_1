@@ -361,7 +361,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   top: 8px;
 }
 
-/* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE :  */
+/* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE : */
 
 .toggler:checked + .hamburger > div {
   background: rgba(0, 0, 0, 0);
@@ -449,7 +449,10 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
 /* Large devices (laptops and desktops, 768px and up) */
 
+
 @media screen and (min-width: 768px) {
+
+  /* HOME */
 
   #home-pic-1 {
   height: 600px;
@@ -458,7 +461,6 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 
   #home-pic-2 {
   height: 650px;
-  object-position;
   }
 
   #home-h3-1 {
@@ -480,6 +482,87 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   padding: 120px 140px;
   font-size: 1.4rem;
   }
+
+  /* ABOUT */
+
+  #about-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #about-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #about-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  /* SERVICES */
+
+  #services-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #services-pic-2 {
+  height: 650px;
+  }
+
+  #services-pic-3 {
+  height: 650px;
+  object-position;
+  }
+
+  #services-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-2 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #services-article-2 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-3 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #services-article-3 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  /* CONTACT */
+
+  #page4-contact-img1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #contact-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #contact-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
 }
 
 /* ------------------------------------------------------------------------*/
@@ -528,6 +611,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
     color: #a9b1a8;
   }
 
+  /* HOME */
+
   #home-pic-1 {
   height: 600px;
   margin-top: 60px;
@@ -564,6 +649,85 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   padding: 20px;
 }
 
+  /* ABOUT */
+
+  #about-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #about-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #about-article-1 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  /* SERVICES */
+
+  #services-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #services-pic-2 {
+  height: 650px;
+  }
+
+  #services-pic-3 {
+  height: 650px;
+  }
+
+  #services-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-1 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-2 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-3 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-3 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  /* CONTACT */
+
+  #page4-contact-img1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #contact-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #contact-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
 }
 
 /* ------------------------------------------------------------------------*/
@@ -571,6 +735,8 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 /* Large devices (laptops and desktops, 1440px and up) */
 
 @media screen and (min-width: 1440px) {
+
+  /* HOME */
 
   #home-pic-1 {
   height: 900px;
@@ -597,6 +763,85 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   }
 
   #home-article-2 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  /* ABOUT */
+
+  #about-pic-1 {
+  height: 900px;
+  margin-top: 60px;
+  }
+
+  #about-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #about-article-1 {
+  padding: 120px 200px;
+  font-size: 1.6rem;
+  }
+
+  /* SERVICES */
+
+  #services-pic-1 {
+  height: 900px;
+  margin-top: 60px;
+  }
+
+  #services-pic-2 {
+  height: 900px;
+  }
+
+  #services-pic-3 {
+  height: 900px;
+  }
+
+  #services-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-1 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  #services-h3-2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-2 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  #services-h3-3 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-3 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  /* CONTACT */
+
+  #page4-contact-img1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #contact-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #contact-article-1 {
   padding: 180px 290px;
   font-size: 1.6rem;
   }
