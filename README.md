@@ -16,8 +16,6 @@ The colours of the site have been chosen to be subdued and gentle.
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the navigation links
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on the forms on the activity page, alongside the social media icons within the footer.
 1. [Git](https://git-scm.com/)
@@ -28,31 +26,25 @@ The colours of the site have been chosen to be subdued and gentle.
     - Canva was used to create the logo and to create the hero image.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
-1. [Burger Menu:] (https://codepen.io/alvarotrigo/pen/PoJGObg) 
+1. [Burger Menu:](https://codepen.io/alvarotrigo/pen/PoJGObg) 
     - Code referenced to make the burger menu and hover across all pages.
       
 ## **Current Features Common to all pages**
-###  **Main body**
-The header is used throughout the site to hold the navigation bar and the site title.
+###  **Header**
+The same header is used across the site to hold the navigation bar and the site title.
 
 ### *Logos:*
-* Although a logo was created, I found this difficult to align on the page, so it was omitted due to time restraints.
+* The logo was set in an elegant, gentle serif font, in keeping with the subject of grief and loss and the bespoke service Griefwell offers.
 
 ![Logo](assets/images/logo.png)
 
 ### *Navigation Bar:*
-* The navigation bar appears on all three pages. 
-* It contains links to the Activities and About pages.
+* The navigation bar appears on all four pages. 
+* It contains links to Home, About, Services and Contacts pages.
 ![Navigation bar](assets/images/screenshots/navbar.png)
 
-### *African Print Design:*
-* This print was integral to ensure there was a recognisable cultural element within the site - this is used as a border around activities.
-![African Print Design](assets/images/african-print.webp)
-
-
-## **Footer**
-* The footer holds icons to access social media sites and an email functionality to contact us, this is replicated throughout the site.
-
+### *Footer:*
+* The footer is repliacated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
 ![Page footer](assets/images/screenshots/footer.png)
 
 ## **Future-Enhancements**
@@ -79,7 +71,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/nu/) 
     
-    Homepage:
+    HOME page:
 
     Initial tests show various errors to be corrected.
     ![Initial test results](assets/images/screenshots/homepage_initial_test_results.png)
@@ -87,21 +79,27 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     ![Final test results](assets/images/screenshots/homepage_final_test_results.png)
 
 
-    Event Page:
+    ABOUT page:
 
     Initial tests show various errors to be corrected.
     ![Initial test results](assets/images/screenshots/event_page_inital_test_results.png)
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/final_event_page_test_results.png)
 
-    About:
+    SERVICES page:
 
     Initial tests show various errors to be corrected.
     ![Initial test results](assets/images/screenshots/about_initial_test_results.png)
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/about_final_test_results.png)
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator) 
+    CONTACT page:
+
+    Initial tests show various errors to be corrected.
+    ![Initial test results](assets/images/screenshots/about_initial_test_results.png)
+    After fixing the errors, the final test results confirm no errors or warnings.
+    ![Final test results](assets/images/screenshots/about_final_test_results.png)
+    [W3C CSS Validator](https://jigsaw.w3.org/css-validator)  
 
     CSS:
 
@@ -110,7 +108,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/CSS_final_test_results.png)
 
-    However, the initial test on the stylesheet showed the use of webkit within the backface code (lines 227 and 237) were not best practice. After removing these the images in firefox for the activities page do not perform the same as their counterparts on the Edge browser. 
+    However, the initial test on the stylesheet showed the use of webkit within the backface code (lines 227 and 237) were not best practice. After removing these the images in firefox for the     activities page do not perform the same as their counterparts on the Edge browser. 
 
     I have included a screenshot of compatibility for the use of backface across the browsers, I am unable to investigate further due to time restraints.
     ![MND Docs compatibility](assets/images/screenshots/backface_compatibility_confirmation.png)
@@ -164,10 +162,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
--   The website was viewed on a variety of devices such as Desktop, Laptop and android phones.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The Website was tested on Google Chrome, using DevTools across various breakpoints for mobile, tablet, laptop and desktop.
+-   All links were tested across all pages and device breakpoints.
 
 
 ### Accessibility
