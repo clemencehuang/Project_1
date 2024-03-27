@@ -128,7 +128,7 @@ Making the website accessible was paramount in order to adhere to web standards 
 * The site is responsive to different screen sizes
 
 
-### ***Known Bugs***
+## **Known Bugs**
 
 * xxxxx. 
     - Solution:  xxxxx. 
@@ -143,6 +143,7 @@ I deployed the page on GitHub pages via the following procedure: -
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 ***
+
 ## **Credits**
 ### **Thank you's**
 This project could not have happened without the support of the following people listed in no particular order:
@@ -150,10 +151,12 @@ This project could not have happened without the support of the following people
 * [Komal Karir ](https://github.com/kkarir-waes) - My course tutor who was always on hand whenever I had a question and also provided great insight into the world of software development.
 
 
-### **General reference:**
+### **General Reference:**
 * I relied upon W3schools, youtube and stack overflow for general "how to's" throughout the project alongside course material from Code Institute. 
 
 ### **Content:**
 * All content and photos were provided by Felicia McDonald.
+
+***
 
 ### **THANK YOU!**
