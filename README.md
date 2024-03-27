@@ -142,13 +142,17 @@ I deployed the page on GitHub pages via the following procedure: -
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
+
 ***
+***
+
 
 ## **Credits**
 ### **Thank you's**
 This project could not have happened without the support of the following people listed in no particular order:
 
-* [Komal Karir ](https://github.com/kkarir-waes) - My course tutor who was always on hand whenever I had a question and also provided great insight into the world of software development.
+* [Komal Karir](https://github.com/kkarir-waes) - My course tutor...
+* [Phil De Hovre](https://github.com/phildehovre) - My fellow Fullstack Web Development bootcamp student who kindly helped me solve issues with a niggling hidden burger menu upon mouse-click and removing the excess margin issue during the build.
 
 
 ### **General Reference:**
@@ -157,6 +161,9 @@ This project could not have happened without the support of the following people
 ### **Content:**
 * All content and photos were provided by Felicia McDonald.
 
+
+***
 ***
 
-### **THANK YOU!**
+
+### **Thank you!**
