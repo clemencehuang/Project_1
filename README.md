@@ -1,6 +1,6 @@
-# **Tribe**
+# **Griefwell London**
 ## **Site Overview**
-Welcome to Tribe - the number one destination for the African and Caribbean community. Here at Tribe we foster a passion to connect and enhance the African and Caribbean communities in rural areas. Connect with others by joining activities being hosted by people like yourself, or host your own activity. Find Black Owned businesses providing the products and services you need, using the business directory. Build new relationships with the secure profile portal which includes a chat function. 
+Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.  
 
 ![Am I responsive screenshot](assets/images/screenshots/AmIResponsive.png)
 
