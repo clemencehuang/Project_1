@@ -1,14 +1,12 @@
 # **Griefwell London**
-## **Site Overview**
-Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.  
+## **Website Overview**
+Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.
 
 ![Am I responsive screenshot](assets/images/screenshots/AmIResponsive.png)
 
 
 ### **Color Scheme:**
-I wanted the colour scheme to be a dark colour which contrasted a white background, I choose rgba(153,30,2, 1) Totem pole for the main background colours and the main font colours. Contrasting with a white font colour against the totem pole background. I have also used black font in places where I felt it was needed to differentiate between areas. 
-
-This color also complimented the African print design I wanted to incorporate into the website - I used this as a background on the activity elements of the site.
+The colours of the site have been chosen to be subdued and gentle.
 
 ### **Technology Used:**
 ## Languages Used
@@ -30,10 +28,8 @@ This color also complimented the African print design I wanted to incorporate in
     - Canva was used to create the logo and to create the hero image.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process.
-1. [ImageColorPicker:](https://imagecolorpicker.com/)
-    -Image Color Picker was used to select the colors for my background, container backgrounds and text. 
-1. [Activities gallery:] (https://www.w3schools.com/css/css3_3dtransforms.asp) 
-    - code referenced to make the gallery on the activities page interactive.
+1. [Burger Menu:] (https://codepen.io/alvarotrigo/pen/PoJGObg) 
+    - Code referenced to make the burger menu and hover across all pages.
       
 ## **Current Features Common to all pages**
 ###  **Main body**
