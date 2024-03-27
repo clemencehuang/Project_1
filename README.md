@@ -30,20 +30,20 @@ The colours of the site have been chosen to be subdued and gentle.
     - Code referenced to make the burger menu and hover across all pages.
       
 ## **Current Features Common to all pages**
-###  **Header**
+## **Header**
 The same header is used across the site to hold the navigation bar and the site title.
 
-### *Logos:*
+## **Logos:**
 * The logo was set in an elegant, gentle serif font, in keeping with the subject of grief and loss and the bespoke service Griefwell offers.
 
 ![Logo](assets/images/logo.png)
 
-### *Navigation Bar:*
+## **Navigation Bar:**
 * The navigation bar appears on all four pages. 
 * It contains links to Home, About, Services and Contacts pages.
 ![Navigation bar](assets/images/screenshots/navbar.png)
 
-### *Footer:*
+## **Footer**
 * The footer is repliacated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
 ![Page footer](assets/images/screenshots/footer.png)
 
@@ -62,8 +62,6 @@ The same header is used across the site to hold the navigation bar and the site 
 * To support growth, I will link social media and google accounts. I will also enable sign up functionality where I can store and use contact information for marketing and promotional material.
 
 
-
-### **Testing Phase**
 
 ## **Testing**
 
