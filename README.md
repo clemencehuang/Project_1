@@ -1,18 +1,17 @@
-# **Griefwell London**
-## **Website Overview**
+# Griefwell London
+## Website Overview
 Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.
 
-### **Website Link:**
+### Website Link
 [Griefwell London](https://clemencehuang.github.io/Project_1/)
 
-![Am I responsive screenshot](validation/amiresponsive/project_1_amiresponsive.png)
+![project_1_amiresponsive](validation/amiresponsive/project_1_amiresponsive.png)
 
+***
 
-### **Color Scheme:**
-The colours of the site have been chosen to be subdued and gentle.
+## Technology Used
 
-### **Technology Used:**
-## Languages Used
+### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -29,26 +28,32 @@ The colours of the site have been chosen to be subdued and gentle.
     - Git was used for version control by utilizing the command line terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub was used to store the project code after being pushed from Git.
-      
-## **Current Features Common to all pages**
-## **Header**
+
+***
+
+## Content and Structure
+
+### Header
 The same header is used across the site to hold the navigation bar and the site title.
 
-## **Logos:**
-* The logo was set in an elegant, gentle serif font, in keeping with the subject of grief and loss and the bespoke service Griefwell offers.
+### Logos
+* The logo is set in an elegant, gentle font with serif detailing to reference the bespoke service Griefwell offers.
 
 ![Logo](assets/images/logo.png)
 
-## **Navigation Bar:**
+### Color Scheme
+A subdued colour palette in pastel tones has been chosen to create a gentle website environment that feels inviting and open to a potential female client base. 
+
+### Navigation Bar
 * The navigation bar appears on all four pages. 
 * It contains links to Home, About, Services and Contacts pages.
 ![Navigation bar](assets/images/screenshots/navbar.png)
 
-## **Footer**
+## Footer
 * The footer is repliacated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
 ![Page footer](assets/images/screenshots/footer.png)
 
-## **Future-Enhancements**
+## Future-Enhancements
 
 * In the future, this site will enable locality hubs - to enable nation-wide activities.
 
@@ -64,7 +69,7 @@ The same header is used across the site to hold the navigation bar and the site 
 
 
 
-## **Testing**
+## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -129,13 +134,13 @@ Making the website accessible was paramount in order to adhere to web standards 
 * The site is responsive to different screen sizes
 
 
-## **Known Bugs**
+## Known Bugs
 
 * xxxxx. 
     - Solution:  xxxxx. 
 
 
-## **Deployment**
+## Deployment
 I deployed the page on GitHub pages via the following procedure: -
 
 1. From the project's [repository](https://github.com/clemencehuang/project_01), go to the **Settings** tab.
@@ -148,18 +153,19 @@ I deployed the page on GitHub pages via the following procedure: -
 ***
 
 
-## **Credits**
-### **Thank you's**
+## Credits
+
+### Thank you's
 This project could not have happened without the support of the following people listed in no particular order:
 
 * [Komal Karir](https://github.com/kkarir-waes) - My course tutor...
 * [Phil De Hovre](https://github.com/phildehovre) - My fellow Fullstack Web Development bootcamp student who kindly helped me solve issues with a niggling hidden burger menu upon mouse-click and removing the excess margin issue during the build.
 
 
-### **General Reference:**
+### General Reference
 * I relied upon W3schools, youtube and stack overflow for general "how to's" throughout the project alongside course material from Code Institute. 
 
-### **Content:**
+### Content
 * All content and photos were provided by Felicia McDonald.
 
 
