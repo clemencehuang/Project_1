@@ -50,8 +50,8 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 ![Navigation bar](assets/images/screenshots/navbar.png)
 
 ### Footer
-* The footer is repliacated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
-![Page footer](assets/images/screenshots/footer.png)
+* The footer is replicated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
+![Page footer](assets/readme/griefwell_footer.png)
 
 ***
 
