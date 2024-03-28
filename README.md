@@ -49,9 +49,11 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 * It contains links to Home, About, Services and Contacts pages.
 ![Navigation bar](assets/images/screenshots/navbar.png)
 
-## Footer
+### Footer
 * The footer is repliacated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
 ![Page footer](assets/images/screenshots/footer.png)
+
+***
 
 ## Future-Enhancements
 
@@ -67,7 +69,7 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 
 * To support growth, I will link social media and google accounts. I will also enable sign up functionality where I can store and use contact information for marketing and promotional material.
 
-
+***
 
 ## Testing
 
@@ -117,13 +119,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     I have included a screenshot of compatibility for the use of backface across the browsers, I am unable to investigate further due to time restraints.
     ![MND Docs compatibility](assets/images/screenshots/backface_compatibility_confirmation.png)
 
-
-
 ### Further Testing
 
 -   The Website was tested on Google Chrome, using DevTools across various breakpoints for mobile, tablet, laptop and desktop.
 -   All links were tested across all pages and device breakpoints.
-
 
 ### Accessibility
 Making the website accessible was paramount in order to adhere to web standards but most importantly, to be able to reach as wide an audience as possible and to make the user experience across various devices as user friendly and legible as possible.
@@ -133,12 +132,12 @@ Making the website accessible was paramount in order to adhere to web standards 
 * All images contained an alt tag
 * The site is responsive to different screen sizes
 
-
-## Known Bugs
+### Known Bugs
 
 * xxxxx. 
     - Solution:  xxxxx. 
 
+***
 
 ## Deployment
 I deployed the page on GitHub pages via the following procedure: -
@@ -149,7 +148,6 @@ I deployed the page on GitHub pages via the following procedure: -
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 
-***
 ***
 
 
@@ -163,14 +161,13 @@ This project could not have happened without the support of the following people
 
 
 ### General Reference
-* I relied upon W3schools, youtube and stack overflow for general "how to's" throughout the project alongside course material from Code Institute. 
+* I used online course material from the Code Institute to learn HTML and CSS alongside W3Schools, Stack Overflow, CodePen and YouTube for general "How To's". I used the Mimo app as an additional learning path which helped with step-by-step practice and also offered snippets of new code that I hadn't picked up through the Code Institute modules.
 
 ### Content
 * All content and photos were provided by Felicia McDonald.
 
 
 ***
-***
 
 
-### **Thank you!**
+## Thank you for reading me!
