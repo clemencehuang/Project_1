@@ -109,16 +109,17 @@ header {
 }
 
 /* ABOUT page - Section 1 */
-/* REMOVE BIG GAP AT THE TOP OF FIRST IMAGE */
 
 .about-bgcolor-1 {
   display: block;
   background-color: #cfd3cf;
 }
 
-/* ISSUE: IMAGE NOT SHOWING UP */
+/* ISSUE: IMAGE NOT SHOWING UP in MOBILE ---------------------------------------*/
 #about-pic-1 {
-  display: block;
+  height: 500px;
+  display: inline-block;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -159,7 +160,7 @@ header {
     no-repeat center center/cover;
   margin-top: 60px;
 }
-/* ISSUE: WHITE GAP APPEARS UNDERNEATH "Grief Recovery Work" + "REIKI ENERGY HEALING" SECTION */
+
 #services-h3-1 {
   padding-bottom: 30px;
   font-size: 1.6rem;
@@ -188,7 +189,6 @@ header {
   width: 100%;
   background: url("../images/page3-services/page3-services-img2a.webp")
     no-repeat center center/cover;
-  margin-top: 60px;
 }
 
 #services-h3-2 {
@@ -219,7 +219,6 @@ header {
   width: 100%;
   background: url("../images/page3-services/page3-services-img2b.webp")
     no-repeat center center/cover;
-  margin-top: 60px;
 }
 
 #services-h3-3 {
@@ -238,11 +237,9 @@ header {
   text-align: center;
 }
 
-
 /* CONTACT page - Section 1 */
 
 /* Image 1 */
-/* ISSUE" NEED TO FIX FOOTER TO STICK TO THE BOTTOM */
 
 .contact-bgcolor-1 {
   display: block;
@@ -277,7 +274,6 @@ header {
   text-align: center;
 }
 
-
 /* Footer */
 
 footer {
@@ -299,8 +295,9 @@ footer {
 
 @media screen and (max-width: 1023px) {
 
+/* ALWAYS KEEPING THE TOGGLER OR THE CHECKBOX ON TOP OF EVERYTHING: */
+
   .toggler {
-  /* ALWAYS KEEPING THE TOGGLER OR THE CHECKBOX ON TOP OF EVERYTHING :  */
   z-index: 2;
   position: absolute;
   top: 0;
@@ -317,16 +314,15 @@ footer {
   right: 0;
   height: 40px;
   width: 35px;
-/* padding: 0.6rem; */
 
-/* FOR DISPLAYING EVERY ELEMENT IN THE CENTER : */
+/* FOR DISPLAYING EVERY ELEMENT IN THE CENTER: */
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* CREATING THE MIDDLE LINE OF THE HAMBURGER : */
+/* CREATING THE MIDDLE LINE OF THE HAMBURGER: */
 
 .hamburger > div {
   position: relative;
@@ -338,8 +334,7 @@ footer {
   transition: all 0.4s ease;
 }
 
-/* CREATING THE TOP AND BOTTOM LINES : 
-TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
+/* CREATING THE TOP AND BOTTOM LINES: TOP AT -8PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 8PX BELOW THE MIDDLE: */
 
 .hamburger > div::before,
 .hamburger > div::after {
@@ -361,7 +356,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   top: 8px;
 }
 
-/* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE : */
+/* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE: */
 
 .toggler:checked + .hamburger > div {
   background: rgba(0, 0, 0, 0);
@@ -373,7 +368,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   background: black;
 }
 
-/* AND ROTATING THE TOP AND BOTTOM LINES :  */
+/* AND ROTATING THE TOP AND BOTTOM LINES: */
 
 .toggler:checked + .hamburger > div::after {
   top: 0;
@@ -381,7 +376,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   background: black;
 }
 
-/* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT :  */
+/* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT: */
 
 .menu {
   z-index: 1;
@@ -392,18 +387,18 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   height: 100vh;
   top: 60px;
 
-/* APPLYING TRANSITION TO THE MENU :  */
+/* APPLYING TRANSITION TO THE MENU: */
 
   transition: all 0.4s ease;
 }
 
-/* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 50% , CREATING A SMOOTH EFFECT :  */
+/* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 50% , CREATING A SMOOTH EFFECT: */
 
 .toggler:checked ~ .menu {
   width: 70%;
 }
 
-/* STYLING THE LIST :  */
+/* STYLING THE LIST:  */
 
 .menu > div > ul {
   display: flex;
@@ -412,7 +407,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   top: 78px;
   padding-left: 20px;
 
-/* HIDDEN INITIALLY  :  */
+/* HIDDEN INITIALLY: */
 
   visibility: hidden;
 }
@@ -431,7 +426,7 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
   font-style: normal;
 }
 
-/* WHEN THE TOGGLER IS CHECKED, CHANGE THE VISIBILITY TO VISIBLE :  */
+/* WHEN THE TOGGLER IS CHECKED, CHANGE THE VISIBILITY TO VISIBLE: */
 
 .toggler:checked ~ .menu > div > ul {
   transition: visibility 0.4s ease;
@@ -442,10 +437,9 @@ TOP AT -10PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 10PX BELOW THE MIDDLE: */
 .toggler:checked ~ .menu > div > ul > li > a:hover {
   color: rgb(0, 0, 0);
 }
-
 }
 
-/* ------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------ */
 
 /* Large devices (laptops and desktops, 768px and up) */
 
