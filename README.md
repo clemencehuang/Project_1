@@ -2,6 +2,7 @@
 ## **Website Overview**
 Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.
 
+### **Website Link:**
 [Griefwell London](https://clemencehuang.github.io/Project_1/)
 
 ![Am I responsive screenshot](validation/amiresponsive/project_1_amiresponsive.png)
@@ -18,18 +19,16 @@ The colours of the site have been chosen to be subdued and gentle.
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on the forms on the activity page, alongside the social media icons within the footer.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google Fonts was used to find the font family "Cormorant+Garamond" which is being used across the entire site. Various font weights are being used for stylistic reasons, to differentiate between headings and body text.
+1. [Canva:](https://www.canva.com/)
+    - Canva was used to create the home page hero image with the logo overlay.
+1. [Burger Menu:](https://codepen.io/alvarotrigo/pen/PoJGObg) 
+    - Code referenced to make the burger menu and hover across all pages.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the command line terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub was used to store the project code after being pushed from Git.
-1. [Canva:](https://www.canva.com/)
-    - Canva was used to create the logo and to create the hero image.
-1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the wireframes during the design process.
-1. [Burger Menu:](https://codepen.io/alvarotrigo/pen/PoJGObg) 
-    - Code referenced to make the burger menu and hover across all pages.
       
 ## **Current Features Common to all pages**
 ## **Header**
