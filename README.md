@@ -88,16 +88,16 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validation Service and W3C CSS Validation Service were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/nu/) 
+-   [W3C Markup Validator](https://validator.w3.org) 
     
     HOME page:
 
-    Initial tests show various errors to be corrected.
-    ![Initial test results](assets/images/screenshots/homepage_initial_test_results.png)
-    After fixing the errors, the final test results confirm no errors or warnings.
-    ![Final test results](assets/images/screenshots/homepage_final_test_results.png)
+    Initial tests show four warnings and two errors to be corrected.
+    ![Initial test results](assets/validation/w3_validator/errors/project_1_index.png)
+    After fixing the errors, the final test results confirm no errors. I've left the warnings untouched for now as my mark-up was previously too complex, resulting in display errors linked to the css. I had deliberately made the mark-up simpler so felt it was best to leave it untouched at this stage.
+    ![Final test results](assets/validation/w3_validator/errors_solved/project_1_index_solved.png)
 
 
     ABOUT page:
@@ -162,7 +162,7 @@ I deployed the page on GitHub pages via the following procedure: -
 1. From the project's [repository](https://github.com/clemencehuang/project_01), go to the **Settings** tab.
 2. From the left-hand menu, select the **Pages** tab.
 3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
-4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link: [Griefwell London](https://clemencehuang.github.io/Project_1/)
 
 
 &nbsp;
@@ -173,8 +173,8 @@ I deployed the page on GitHub pages via the following procedure: -
 ### Credits
 Thank you to the following people who have helped me on my web development journey so far and in supporting me with my first project.
 
-* [Komal Karir](https://github.com/kkarir-waes) - My enthusiastic course tutor who has been a great support whenever there is a hurdle to overcome and who has been inspired me to embrace my geeky side.
-* **My fellow students** - My fellow Fullstack Web Development bootcamp students who make it such a fun class to be in, the support we offer one another so far has been immense. Special shout out to [Phil De Hovre](https://github.com/phildehovre)!
+* [Komal Karir](https://github.com/kkarir-waes) - My enthusiastic course tutor who has been a great support whenever there is a hurdle to overcome and who has inspired me to embrace my inner geek.
+* **My fellow students** - My fellow Fullstack Web Development bootcamp students who make it such a fun class to be in — the support we offer one another so far has been immense. Special shout out to [Phil De Hovre](https://github.com/phildehovre)!
 
 
 ### General References
