@@ -70,17 +70,11 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 
 ## Future-Enhancements
 
-* In the future, this site will enable locality hubs - to enable nation-wide activities.
-
-* I would also like to include activities which are based abroad, female only trips etc.
-
-* I would also like to host business podcasts or a blog, where Black Owned businesses could talk more about their services or products and where start ups could connect with the established community and gain resources while they start their entrepreneurial journey.
-
-* With the backend functionality I will be able to include aspects like searchable activities and businesses, a profile area and chat function.
-
-* There should also be a payment element to enable bigger activities where a charge/booking fee/ reservation fee may be needed. 
-
-* To support growth, I will link social media and google accounts. I will also enable sign up functionality where I can store and use contact information for marketing and promotional material.
+* Create more varied layouts across each page in order to feel less repetitive and more engaging for the user.
+* Add two more photos to the About page: one of Felicia McDonald and one black and white childhood photo of her with her mother.
+* Add a form to the Contacts page so that users can send messages to Felicia McDonald.
+* Evolve the website into a full services platform where users can book services and exhange messages on a community forum.
+* Add a live calendar of events.
 
 &nbsp;
 ***
