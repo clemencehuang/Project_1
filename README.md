@@ -34,7 +34,7 @@ Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered t
 ## Content and Structure
 
 ### Header
-The same header is used across the site to hold the navigation bar and the site title.
+The same header is used across the site to hold the navigation bar and the site title. The menu sits in a horizontal flow for larger screen sizes and turns into a burger menu for mobile and tablet.
 
 ### Logos
 * The logo is set in an elegant, gentle font with serif detailing to reference the bespoke service Griefwell offers. A special font was used on the hero landing page image to set the scene; a neon yellow was used in deliberate contrast to the otherwise earthy colours of the site, to give a modern twist and add an uplifting element to it.
