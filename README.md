@@ -37,9 +37,9 @@ Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered t
 The same header is used across the site to hold the navigation bar and the site title.
 
 ### Logos
-* The logo is set in an elegant, gentle font with serif detailing to reference the bespoke service Griefwell offers.
+* The logo is set in an elegant, gentle font with serif detailing to reference the bespoke service Griefwell offers. A special font was used on the hero landing page image to set the scene; a neon yellow was used in deliberate contrast to the otherwise earthy colours of the site, to give a modern twist and add an uplifting element to it.
 
-![Logo](assets/images/logo.png)
+![Logo](assets/readme/griefwell_logo.png)
 
 ### Color Scheme
 A subdued colour palette in pastel tones has been chosen to create a gentle website environment that feels inviting and open to a potential female client base. 
@@ -128,13 +128,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 Making the website accessible was paramount in order to adhere to web standards but most importantly, to be able to reach as wide an audience as possible and to make the user experience across various devices as user friendly and legible as possible.
 
 * Semantic elements are used throughout the website
-* All images were converted into WEBP, a reduced file size to support the load time of images (https://image.online-convert.com/)
-* All images contained an alt tag
-* The site is responsive to different screen sizes
+* All images were converted into WEBP, a reduced file size to support the load time of images (https://image.online-convert.com/).
+* All images contained an alt tag whenever possible.
+* The site is responsive to different screen sizes.
 
 ### Known Bugs
 
-* xxxxx. 
+* About Page: The hero image on the About page disappears in mobile view. 
     - Solution:  xxxxx. 
 
 ***
@@ -151,16 +151,14 @@ I deployed the page on GitHub pages via the following procedure: -
 ***
 
 
-## Credits
+### Credits
+Thank you to the following people who have helped me on my web development journey so far and in supporting me with my first project.
 
-### Thank you's
-This project could not have happened without the support of the following people listed in no particular order:
-
-* [Komal Karir](https://github.com/kkarir-waes) - My course tutor...
-* [Phil De Hovre](https://github.com/phildehovre) - My fellow Fullstack Web Development bootcamp student who kindly helped me solve issues with a niggling hidden burger menu upon mouse-click and removing the excess margin issue during the build.
+* [Komal Karir](https://github.com/kkarir-waes) - My enthusiastic course tutor who has been a great support whenever there is a hurdle to overcome and who has been inspired me to embrace my geeky side.
+* **My fellow students** - My fellow Fullstack Web Development bootcamp students who make it such a fun class to be in, the support we offer one another so far has been immense. Special shout out to [Phil De Hovre](https://github.com/phildehovre)!
 
 
-### General Reference
+### General References
 * I used online course material from the Code Institute to learn HTML and CSS alongside W3Schools, Stack Overflow, CodePen and YouTube for general "How To's". I used the Mimo app as an additional learning path which helped with step-by-step practice and also offered snippets of new code that I hadn't picked up through the Code Institute modules.
 
 ### Content
@@ -170,4 +168,4 @@ This project could not have happened without the support of the following people
 ***
 
 
-## Thank you for reading me!
+### Thank you for reading me!
