@@ -2,7 +2,7 @@
 ## **Website Overview**
 Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.
 
-[Website Link](https://clemencehuang.github.io/Project_1/)
+[Griefwell London](https://clemencehuang.github.io/Project_1/)
 
 ![Am I responsive screenshot](validation/amiresponsive/project_1_amiresponsive.png)
 
