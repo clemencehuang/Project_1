@@ -92,29 +92,21 @@ The W3C Markup Validation Service and W3C CSS Validation Service were used to va
 
 -   [W3C Markup Validator](https://validator.w3.org) 
     
-    HOME page:
+    **HOME** page:
 
     Initial tests show four warnings and two errors to be corrected.
     ![Initial test results](assets/validation/w3_validator/errors/project_1_index.png)
     After fixing the errors, the final test results confirm no errors. I've left the warnings untouched for now as my mark-up was previously too complex, resulting in display errors linked to the css. I had deliberately made the mark-up simpler so felt it was best to leave it untouched at this stage.
     ![Final test results](assets/validation/w3_validator/errors_solved/project_1_index_solved.png)
 
-
-    ABOUT page:
-
-    Initial tests show various errors to be corrected.
-    ![Initial test results](assets/images/screenshots/event_page_inital_test_results.png)
-    After fixing the errors, the final test results confirm no errors or warnings.
-    ![Final test results](assets/images/screenshots/final_event_page_test_results.png)
-
-    SERVICES page:
+    **SERVICES** page:
 
     Initial tests show various errors to be corrected.
     ![Initial test results](assets/images/screenshots/about_initial_test_results.png)
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/about_final_test_results.png)
 
-    CONTACT page:
+    **CONTACT** page:
 
     Initial tests show various errors to be corrected.
     ![Initial test results](assets/images/screenshots/about_initial_test_results.png)
@@ -122,17 +114,13 @@ The W3C Markup Validation Service and W3C CSS Validation Service were used to va
     ![Final test results](assets/images/screenshots/about_final_test_results.png)
     [W3C CSS Validator](https://jigsaw.w3.org/css-validator)  
 
-    CSS:
+    **CSS**:
 
     Initial tests show various errors to be corrected.
     ![Initial test results](assets/images/screenshots/CSS_initial_test_results.png)
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/CSS_final_test_results.png)
 
-    However, the initial test on the stylesheet showed the use of webkit within the backface code (lines 227 and 237) were not best practice. After removing these the images in firefox for the     activities page do not perform the same as their counterparts on the Edge browser. 
-
-    I have included a screenshot of compatibility for the use of backface across the browsers, I am unable to investigate further due to time restraints.
-    ![MND Docs compatibility](assets/images/screenshots/backface_compatibility_confirmation.png)
 
 ### Further Testing
 
