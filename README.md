@@ -1,13 +1,17 @@
 # Griefwell London
 ## Website Overview
-Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. She also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.
+Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered the sudden loss of her beloved mother in 2020, two weeks before the UK went into lockdown. Subsequently she also lost her health and her sense of identity and gradually had to find a way to rebuild her life and herself. Realising how ill-equipped she was in handling her loss and grief, she went on a journey to discover ways to overcome them. Now, as a certified Grief Recovery Specialist and Coach, Decluttering Coach, and Reiki Practitioner, she helps women create the ​emotional and physical space to help them process a loss, and to empower them to be an active participant in their grief ​journey.
 
 ### Website Link
 [Griefwell London](https://clemencehuang.github.io/Project_1/)
 
+&nbsp;
+
 ![project_1_amiresponsive](validation/amiresponsive/project_1_amiresponsive.png)
 
+&nbsp;
 ***
+&nbsp;
 
 ## Technology Used
 
@@ -18,26 +22,28 @@ Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered t
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Google Fonts:](https://fonts.google.com/)
+-   [Google Fonts:](https://fonts.google.com/)
     - Google Fonts was used to find the font family "Cormorant+Garamond" which is being used across the entire site. Various font weights are being used for stylistic reasons, to differentiate between headings and body text.
-1. [Canva:](https://www.canva.com/)
-    - Canva was used to create the home page hero image with the logo overlay.
-1. [Burger Menu:](https://codepen.io/alvarotrigo/pen/PoJGObg) 
+-   [Canva:](https://www.canva.com/)
+    - Canva was used to create the home page hero image with the neon yellow logo overlay.
+-   [Burger Menu:](https://codepen.io/alvarotrigo/pen/PoJGObg) 
     - Code referenced to make the burger menu and hover across all pages.
-1. [Git](https://git-scm.com/)
+-   [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the command line terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+-   [GitHub:](https://github.com/)
     - GitHub was used to store the project code after being pushed from Git.
 
+&nbsp;
 ***
+&nbsp;
 
 ## Content and Structure
 
 ### Header
-The same header is used across the site to hold the navigation bar and the site title. The menu sits in a horizontal flow for larger screen sizes and turns into a burger menu for mobile and tablet.
+The same header is used across the site to hold the navigation bar and the site title.
 
 ### Logos
-* The logo is set in an elegant, gentle font with serif detailing to reference the bespoke service Griefwell offers. A special font was used on the hero landing page image to set the scene; a neon yellow was used in deliberate contrast to the otherwise earthy colours of the site, to give a modern twist and add an uplifting element to it.
+The logo is set in an elegant, gentle font with serif detailing to reference the bespoke service Griefwell offers. A special font was used on the hero landing page image to set the scene; a neon yellow was used in deliberate contrast to the otherwise earthy colours of the site, to give a modern twist and add an uplifting element to it.
 
 ![Logo](assets/readme/griefwell_logo.png)
 
@@ -47,14 +53,20 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 ### Navigation Bar
 * The navigation bar appears on all four pages. 
 * It contains links to Home, About, Services and Contacts pages.
-![Navigation bar](assets/images/screenshots/navbar.png)
+* The menu sits in a horizontal flow for larger screen sizes and turns into a burger menu for mobile and tablet.
+  
+![Navigation bar](assets/readme/griefwell_navigation_desktop.png)
+
+![Navigation bar](assets/readme/griefwell_navigation_mobile.png)
 
 ### Footer
 * The footer is replicated across all pages, deliberately sticking to the the bottom of each page, acting as a re-enforcement of the Griefwell brand and name.
 
 ![Page footer](assets/readme/griefwell_footer.png)
 
+&nbsp;
 ***
+&nbsp;
 
 ## Future-Enhancements
 
@@ -70,7 +82,9 @@ A subdued colour palette in pastel tones has been chosen to create a gentle webs
 
 * To support growth, I will link social media and google accounts. I will also enable sign up functionality where I can store and use contact information for marketing and promotional material.
 
+&nbsp;
 ***
+&nbsp;
 
 ## Testing
 
@@ -138,7 +152,9 @@ Making the website accessible was paramount in order to adhere to web standards 
 * About Page: The hero image on the About page disappears in mobile view. 
     - Solution:  xxxxx. 
 
+&nbsp;
 ***
+&nbsp;
 
 ## Deployment
 I deployed the page on GitHub pages via the following procedure: -
@@ -149,7 +165,9 @@ I deployed the page on GitHub pages via the following procedure: -
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 
+&nbsp;
 ***
+&nbsp;
 
 
 ### Credits
@@ -165,8 +183,8 @@ Thank you to the following people who have helped me on my web development journ
 ### Content
 * All content and photos were provided by Felicia McDonald.
 
-
+&nbsp;
 ***
-
+&nbsp;
 
 ### Thank you for reading me!
